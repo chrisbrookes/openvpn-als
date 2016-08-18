@@ -9,8 +9,8 @@
 /* Global element styles */
 
 a, a:link, a:visited, a:hover {	
-    font-family: Tahoma, Arial, Helvetica, sans-serif;
-    color: #3d649e;
+    /*font-family: Tahoma, Arial, Helvetica, sans-serif;*/
+    color: #485aa9;
     text-decoration: none;
 }
 
@@ -21,7 +21,7 @@ a:hover {
 textarea {
 	padding: 2px;
 	border: 1px solid #dcdcdc;
-    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    /*font-family: Tahoma, Arial, Helvetica, sans-serif;*/
     font-size: 1em;
     background-color: white;
     color: black;
@@ -38,21 +38,21 @@ a.externalLink {
 a.externalLink:link{
     color: #00447C;
     font-weight: bold;
-    font-family: Tahoma, Arial, Helvetica, sans-serif; 
+    /*font-family: Tahoma, Arial, Helvetica, sans-serif; */
 	font-size: 10pt;
 }
 
 a.externalLink:visited{
     color: #00447C;
     font-weight: bold;
-    font-family: Tahoma, Arial, Helvetica, sans-serif; 
+    /*font-family: Tahoma, Arial, Helvetica, sans-serif; */
 	font-size: 10pt;
 }
 
 a.externalLink:hover{
     color: #00447C;
     font-weight: bold;
-    font-family: Tahoma, Arial, Helvetica, sans-serif; 
+    /*font-family: Tahoma, Arial, Helvetica, sans-serif; */
 	font-size: 10pt;
     text-decoration : underline;
 }
@@ -61,7 +61,7 @@ a.externalLink:hover{
 
 
 .smallText {
-	font-family: Tahoma, Arial, Helvetica, sans-serif; 
+	/*font-family: Tahoma, Arial, Helvetica, sans-serif; */
 	font-size: 9pt;
 }
 
@@ -78,7 +78,7 @@ input.threeQuartersWidth {
 input {
 	padding: 2px;
 	border: 1px solid #dcdcdc;
-    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    /*font-family: Tahoma, Arial, Helvetica, sans-serif;*/
     font-size: 1em;
     background-color: white;
     color: black;
@@ -86,7 +86,7 @@ input {
 
 select {
 	padding: 2px;
-    font-family: Tahoma, Arial, Helvetica, sans-serif;
+    /*font-family: Tahoma, Arial, Helvetica, sans-serif;*/
     font-size: 1em;
 	border: 1px solid #dcdcdc;
     background-color: white;

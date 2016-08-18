@@ -6,7 +6,8 @@
 <head>
 	<tiles:useAttribute name="resourcePrefix" scope="request" classname="java.lang.String"/>
 	<tiles:useAttribute name="resourceBundle" scope="request" classname="java.lang.String"/>
-	<title><bean:message key="<%= resourcePrefix + ".title" %>" bundle="<%= resourceBundle %>"/></title>	
-	<link type="text/css" rel="stylesheet" href='<core:themePath/>/style.jsp'/>		
+	<title><bean:message key="<%= resourcePrefix + ".title" %>" bundle="<%= resourceBundle %>"/></title>
+	<link type="text/css" rel="stylesheet" href='<core:themePath/>/style.jsp'/>
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 	<core:pageScripts position="<%= String.valueOf(CoreScript.PAGE_HEADER) %>"/>	
 </head>

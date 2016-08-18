@@ -45,7 +45,7 @@
 }
 
 .titled_dialog_content td {
-    font-family: Tahoma, Arial, Helvetica, sans-serif; 
+    /*font-family: Tahoma, Arial, Helvetica, sans-serif; */
 }
 
 .titled_dialog_content table {
@@ -57,7 +57,7 @@
 
 .titled_dialog_content thead td {
 	padding: 4px;
-	background-color: #3D649E;
+	background-color: #4d394b;
 	color: white;
 	font-weight: bold;
 }
@@ -112,6 +112,6 @@
 }
 
 .dialog_categorized_table {
-    font-family: Tahoma, Arial, Helvetica, sans-serif; 
+    /*font-family: Tahoma, Arial, Helvetica, sans-serif; */
    	width: 100%;
 }

@@ -2,7 +2,7 @@
 
 #component_navmenu, #component_wizardSequenceInfoContainer, #component_editingResourceInfoContainer {
 	padding-bottom: 128em;
-	background-color: #3d649e;
+	background-color: #4d394b;
 }
 
 /* Stop the width of the exception going to 100% with big traces */

@@ -9,7 +9,7 @@
 /* Page info */
 
 div#component_pageInfo {
-    font-family: Tahoma, Arial, Helvetica, sans-serif; 
+    /*font-family: Tahoma, Arial, Helvetica, sans-serif; */
 	width: 100%;
 	margin: 0px 0px 8px 0px;
 	padding: 0px 0px 0px 0px;
@@ -45,7 +45,7 @@ div#component_pageInfo h1 {
 /* Page info (in popup pages) */
 
 .popup div#component_pageInfo {
-    font-family: Tahoma, Arial, Helvetica, sans-serif; 
+    /*font-family: Tahoma, Arial, Helvetica, sans-serif; */
 	width: 100%;
 	margin: 0px 0px 8px 0px;
 	padding: 0px 0px 0px 0px;
@@ -55,7 +55,7 @@ div#component_pageInfo h1 {
 /* Tool bar */
 
 div#component_toolBar {
-    font-family: Tahoma, Arial, Helvetica, sans-serif; 
+    /*font-family: Tahoma, Arial, Helvetica, sans-serif; */
 	width: 100%;
 	margin: 0px 0px 8px 0px;
 	padding: 0px 0px 0px 0px;
@@ -109,7 +109,7 @@ div#component_pageHeader h1 {
 	
 
 div#component_pageHeader { 
-    font-family: Tahoma, Arial, Helvetica, sans-serif; 
+    /*font-family: Tahoma, Arial, Helvetica, sans-serif; */
 	width: 100%;
 	height: 50px;
 	margin: 0px 0px 0px 0px;
@@ -117,7 +117,7 @@ div#component_pageHeader {
 	background-image: url(images/banner.gif);
 	background-repeat: no-repeat;
 /*	background-color: black;*/
-	background-color: white;
+	background-color: #f6f6f6;
 	color: white;
 	vertical-align: middle;
 }
@@ -134,7 +134,7 @@ div#component_smallPageHeader h1 {
 	
 
 div#component_smallPageHeader { 
-    font-family: Tahoma, Arial, Helvetica, sans-serif; 
+    /*font-family: Tahoma, Arial, Helvetica, sans-serif; */
 	width: 100%;
 	height: 35px;
 	margin: 0px 0px 0px 0px;
@@ -151,7 +151,7 @@ div#component_smallPageHeader {
 
 #component_pageFooter { 	
 	position: fixed;
-	background-color: #3d649e;
+	background-color: #4d394b;
 	color: #fff;
 	bottom: 0;
 	height: 7em;
@@ -177,9 +177,9 @@ body > #component_pageFooter {
 }
 
 #component_pageFooter .separator hr {
-	color: #2c538d;
-	background-color: #2c538d;
-	border : 0 solid #2c538d;
+	color: red;
+	background-color: #594257;
+	border : 0 solid #463344;
 	border-top-width : thin;
 	height: 1px;
 }
@@ -195,7 +195,7 @@ body > #component_pageFooter {
 }
 
 #layout_leftbar .component_messageBox {
-	background-color: #3d649e;
+	background-color: #4d394b;
 	margin-right: 10px;	
 	width: 16.923em;
 	*width: 16.5em;
@@ -418,21 +418,22 @@ body > #component_pageFooter {
 /* Navigation menu styles */
 
 #component_menuContainer {	
-	background-color: #3d649e;
+	background-color: red;
 }
 
 #component_menu {	
-	background-color: #3d649e;
+	/*background-color: #4d394b;*/
+	background-color: green;
 }
 
 #component_menu .frameContent, #component_menu .frameContentContainer {	
-	background-color: #3d649e;
+	background-color: #4d394b;
 }
 
 
 #component_menu .titleBar {
 	text-align: center;
-	color: #3D649E;
+	/*color: #4d394b;*/
 	width: 100%;
 	background-color: #cccccc;
 }
@@ -472,7 +473,7 @@ body > #component_pageFooter {
 	font-size: 1.2em;
 	border-width: 0px;
 	padding: 12px 0px 4px 16px; 
-	margin: 0px 0px 0px 0px;
+	margin: 0px 0px 4px 0px;
 	text-align: left;
 	
 }
@@ -483,7 +484,7 @@ body > #component_pageFooter {
 	font-weight: normal;
 	border-width: 0px;
 	padding: 0px 0px 0px 30px;
-	margin: 0px 0px 0px 0px;
+	margin: 0px 0px 2px 0px;
 }
 
 #component_navmenu div.information {
@@ -512,7 +513,7 @@ body > #component_pageFooter {
 
 #component_navmenu a.selected:visited, div#component_navmenu a.selected:link, div#component_navmenu a.selected:hover {
 	font-size: 0.9em;
-	color: #f8f09a;
+	color: #8f9aca;
 }
 
 #component_navmenu span.disabled {
@@ -527,17 +528,17 @@ body > #component_pageFooter {
 /* Wizard Sequence styles */
 
 #component_wizardSequenceInfo .frameContent {	
-	background-color: #3d649e;
+	background-color: #4d394b;
 	color: white;
 }
 
 #component_wizardSequenceInfo .titleBar {
-	color: #3D649E;
+	color: #4d394b;
 	background-color: #cccccc;
 }
 
 #component_wizardSequenceInfo .titleBar .title {	
-	color: #3d649e;
+	color: #4d394b;
 	text-align: right;
 	width: 60%;
 }
@@ -588,7 +589,7 @@ div#component_wizardSequenceInfo a, div#component_wizardSequenceInfo a:visited, 
 }
 
 div#component_wizardSequenceInfo a {
-	color: #f8f09a;
+	color: #8f9aca;
 }
 
 div#component_wizardSequenceInfo a.deselected {
@@ -596,7 +597,7 @@ div#component_wizardSequenceInfo a.deselected {
 }
 
 div#component_wizardSequenceInfo span.disabled {
-	font-family: Tahoma,Arial,Helvetica,sans-serif;
+	/*font-family: Tahoma,Arial,Helvetica,sans-serif;*/
 	color: #aaaaaa;
 }
 
@@ -607,17 +608,17 @@ div#component_wizardSequenceInfo a:hover {
 /* Editing Resource Information */
 
 #component_editingResourceInfo .frameContent {	
-	background-color: #3D649E;
+	background-color: #4d394b;
 	color: white;
 }
 
 #component_editingResourceInfo .titleBar {
-	color: #3D649E;
+	color: #4d394b;
 	background-color: #cccccc;
 }
 
 #component_editingResourceInfo .titleBar .title {	
-	color: #3d649e;
+	color: #4d394b;
 	text-align: right;
 	width: 60%;
 }
@@ -704,7 +705,7 @@ div#component_editingResourceInfo #resourceDetails .detail {
 /* Message sidebars - Information */
 	
 #component_infoMessages .titleBar {
-	background-color: #3d649e;
+	background-color: #4d394b;
 }
 
 #component_infoMessages .titleBar .title {
@@ -756,12 +757,12 @@ div#component_about {
 }
 
 div#component_about .frameContent {
-	background-color: #3d649e;
+	background-color: #4d394b;
 	color: white;
 }
 
 div#component_about .titleBar {
-	color: #3D649E;
+	color: #4d394b;
 	background-color: #cccccc;
 }
 
@@ -780,7 +781,7 @@ div#component_logonStatus, div#component_sslx_copyright, div#component_sslx_trad
 }
 
 div#component_logonStatus {
-	color: #f8f09a;
+	color: #8f9aca;
 	font-size: 1em;
 	margin-bottom: 8px;
 }
@@ -915,7 +916,7 @@ div.helpIndicator {
 }
 
 .replacementVariablesMain {
-	border: 1px solid #3d649e;
+	border: 1px solid #4d394b;
     background-color: #eeeeee;
 	color: #000000;
 	width: 240px;
@@ -943,7 +944,7 @@ div.helpIndicator {
 }
 
 .replacementVariablesTitleBar {
-	background-color: #3d649e;
+	background-color: #4d394b;
 	color: white;
 	font-weight: bold;
 	vertical-align: middle;
@@ -1009,7 +1010,7 @@ div.helpIndicator {
 }
 
 .policyLaunchItem a:hover {
-	background-color: #3d649e;
+	background-color: #4d394b;
 	color: #ffffff;
 }
 
@@ -1074,7 +1075,7 @@ div.helpIndicator {
 }
 
 .unimportantAction a:hover {
-	background-color: #3d649e;
+	background-color: #4d394b;
 	color: #ffffff;
 }
 
@@ -1245,7 +1246,7 @@ div.helpIndicator {
 
 .confirmTable {
 	background-color: #DAE1EC;
-    font-family: Tahoma, Arial, Helvetica, sans-serif; 
+    /*font-family: Tahoma, Arial, Helvetica, sans-serif; */
    	font-size: 10pt;
    	border-bottom-style: solid;
    	border-bottom-width: 1px;
@@ -1257,7 +1258,7 @@ div.helpIndicator {
 }
 
 .confirmMessage {
-    font-family: Tahoma, Arial, Helvetica, sans-serif; 
+    /*font-family: Tahoma, Arial, Helvetica, sans-serif; */
    font-size: 10pt; 
    	max-width: 420px;
 }
@@ -1265,13 +1266,13 @@ div.helpIndicator {
 /* Date time picker */
 
 .component_dateTimePicker {
-    font-family: Tahoma, Arial, Helvetica, sans-serif; 
+    /*font-family: Tahoma, Arial, Helvetica, sans-serif; */
 	width: 18em;
 /*    font-size: 9pt;  */
 }
 
 .component_dateTimePicker .dateTimeView {
-	background-color: #3d649e;
+	background-color: #4d394b;
 	color: #ffffff;
 }
 

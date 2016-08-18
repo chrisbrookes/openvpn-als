@@ -60,7 +60,7 @@
 }
 
 .resource_table thead tr {
-	background-color: #3d649e;
+	background-color: #4d394b;
 	color: white;
 	font-weight: bold;
 	height: 1.8em;
@@ -72,6 +72,9 @@
 	font-weight: bold;
 }
 
+.resource_table {
+	line-height: 18px;
+}
 .resource_table td {
 	margin: 0;
 	padding: 2px 2px 2px 2px;
@@ -91,7 +94,7 @@
 
 .resource_table tfoot tr {
 	vertical-align: middle;
-	background-color: #3d649e;
+	background-color: #4d394b;
 	color: white;
 	font-weight: bold;
 }
@@ -124,7 +127,7 @@
 
 .categorized_table {
 	width: 100%;
-    font-family: Tahoma, Arial, Helvetica, sans-serif; 
+    /*font-family: Tahoma, Arial, Helvetica, sans-serif; */
    	font-size: 1em;
 }
 

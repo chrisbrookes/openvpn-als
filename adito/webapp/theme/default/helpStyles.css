@@ -9,7 +9,7 @@
 /* Help */
 
 #help_page {	
-    font-family: Tahoma, Arial, Helvetica, sans-serif; 
+    /*font-family: Tahoma, Arial, Helvetica, sans-serif; */
 	margin: 0px 0px 0px 0px;
 	padding: 0px 0px 0px 0px;
 	text-align:left;
@@ -30,7 +30,7 @@
 	position: relative;
 	background-color: #CCCCCC;
 	font-weight: bold;
-	color: #3D649E;
+	color: #4d394b;
 	vertical-align: middle;
 	width: 100%;
 	text-align: left;
@@ -51,7 +51,7 @@
 
 #propertyHelp h3 {
 	font-size: 1.2em;
-	color: #3D649E;
+	color: #4d394b;
 }	
 
 #propertyHelp p {
@@ -85,7 +85,7 @@
 }
 
 div#help_index a.selected:visited, div#help_index a.selected:link, div#help_index a.selected:hover {
-	color: #f8f09a;
+	color: #8f9aca;
 }
 
 div#help_index a:hover {

@@ -925,7 +925,7 @@ div#page_replacements .resource_table tr {
 
 div#page_replacements .resource_table tbody td.replaceTitle {
 	text-align: left;
-	background-color: #3d649e;
+	background-color: #4d394b;
 	width: 6em;
 	max-width: 6em;
 	color: white;
@@ -933,7 +933,7 @@ div#page_replacements .resource_table tbody td.replaceTitle {
 
 div#page_replacements .resource_table tbody td.markTitle {
 	text-align: left;
-	background-color: #3d649e;
+	background-color: #4d394b;
 	width: 50px;
 	max-width: 50px;
 	color: white;
@@ -941,7 +941,7 @@ div#page_replacements .resource_table tbody td.markTitle {
 
 div#page_replacements .resource_table tbody td.mimeTitle {
 	text-align: left;
-	background-color: #3d649e;
+	background-color: #4d394b;
 	width: 14em;
 	max-width: 14em;
 	color: white;
@@ -949,7 +949,7 @@ div#page_replacements .resource_table tbody td.mimeTitle {
 
 div#page_replacements .resource_table tbody td.siteTitle {
 	text-align: left;
-	background-color: #3d649e;
+	background-color: #4d394b;
 	width: 55%;
 	color: white;
 }
@@ -1018,7 +1018,7 @@ div#page_keyStore .filtered_resources td.actions {
 }
 
 .keyStorePageOptionItem a:hover {
-	background-color: #3d649e;
+	background-color: #4d394b;
 	color: #ffffff;
 }
 
