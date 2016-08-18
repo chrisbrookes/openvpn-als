@@ -36,6 +36,7 @@ import com.adito.security.UserNotFoundException;
 import com.adito.util.ThreadRunner;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
+import org.springframework.ldap.NoPermissionException;
 import org.springframework.ldap.core.AttributesMapper;
 import org.springframework.ldap.core.ContextMapper;
 import org.springframework.ldap.core.DirContextAdapter;
@@ -419,8 +420,12 @@ public class LdapUserDatabase extends DefaultUserDatabase implements CoreListene
             int ind = dn.indexOf(baseDn);
             String rdn = dn.substring(0,ind - 1);
             ldapTemplate.modifyAttributes(rdn, new ModificationItem[]{item});
-        }catch(Exception e){
-            throw new UserDatabaseException("Error in LDAP server");
+        }
+        catch (NoPermissionException noPermissionException) {
+            throw new UserDatabaseException("No permission to modify LDAP attributes", noPermissionException);
+        }
+        catch(Exception e) {
+            throw new UserDatabaseException("Error in LDAP server", e);
         }
 
 
