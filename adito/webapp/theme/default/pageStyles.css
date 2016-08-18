@@ -13,6 +13,14 @@ div#page_about {
 	
 }
 
+pre {
+	white-space: pre-wrap;       /* Since CSS 2.1 */
+	white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+	white-space: -pre-wrap;      /* Opera 4-6 */
+	white-space: -o-pre-wrap;    /* Opera 7 */
+	word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+
 div#page_about .titled_dialog_content {
 	margin-top: 24px;
 }
@@ -223,7 +231,8 @@ div#page_confirm .traceMessage {
 
 div#page_confirm .traceMessage pre {
 	height: 10em;
-	overflow: scroll;
+	overflow: auto;
+	width: auto;
 	background-color: #ededed;
 	font-size: 1em;
 	margin: 0;
@@ -231,8 +240,6 @@ div#page_confirm .traceMessage pre {
 	border-style: solid;
 	border-width: 1px;
 	border-color: #dcdcdc;
-	float: left; /* not sure this is needed anymore */
-	
 }
 
 /* File Download Confirm Page */
