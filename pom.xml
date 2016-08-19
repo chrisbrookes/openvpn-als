@@ -197,6 +197,8 @@
             <url>http://download.java.net/maven/2</url>
             <layout>default</layout>
         </repository>
+
+        <!-- DEAD
         <repository>
             <id>Codehaus Snapshot Repo</id>
             <url>http://snapshots.repository.codehaus.org/</url>
@@ -206,6 +208,7 @@
                 <enabled>false</enabled>
             </releases>
         </repository>
+        -->
         <repository>
             <id>OpenQA</id>
             <url>http://maven.openqa.org</url>
@@ -240,13 +243,19 @@
 	<!-- A few Adito components are not available in any public Maven2
 	     repository. This custom repository contains all the Adito-specific
 	     stuff, such as a specific version of JRADIUS -->
+        <!-- DEAD
         <repository>
             <id>sjsepp</id>
             <name>Adito Maven2 repository</name>
             <url>http://users.utu.fi/sjsepp/maven2</url>
         </repository>
+        -->
 
-
+        <repository>
+            <id>restlet-repo</id>
+            <name>Restlet repository</name>
+            <url>http://maven.restlet.com</url>
+        </repository>
     </repositories>
     
     <pluginRepositories>

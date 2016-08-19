@@ -25,13 +25,13 @@
 
     <dependencies>
       <dependency>
-          <groupId>org</groupId>
-          <artifactId>restlet</artifactId>
+          <groupId>org.restlet</groupId>
+          <artifactId>org.restlet</artifactId>
           <version>1.1.7</version>
       </dependency>
       <dependency>
-          <groupId>com.noelios</groupId>
-          <artifactId>restlet</artifactId>
+          <groupId>com.noelios.restlet</groupId>
+          <artifactId>com.noelios.restlet</artifactId>
           <version>1.1.7</version>
       </dependency>
     </dependencies>
