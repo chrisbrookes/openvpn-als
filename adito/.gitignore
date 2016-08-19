@@ -1,0 +1,13 @@
+# dist creates bin archives
+adito-*bin*
+
+conf/default.keystore.jks
+conf/webserver.properties
+conf/wrapper.conf
+conf/repository/**
+conf/prefs/system/**/*.properties
+db/
+dist/
+lib/*.jar
+tmp/
+webapp/WEB-INF/classes/

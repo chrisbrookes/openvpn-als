@@ -4,3 +4,8 @@
 *.class
 *.backup
 *.data
+
+# intellij files
+**/*.ipr
+**/*.iws
+**/*.iml
