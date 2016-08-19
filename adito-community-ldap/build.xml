@@ -12,6 +12,7 @@
     <property name="build.release" value="${build.dir}/release"/>
     <property name="build.dist" value="${build.dir}/dist"/>
     <property name="build.src" value="src"/>
+    <property name="build.debug" value="on" />
 
     <!-- Dependencies -->
 
@@ -97,7 +98,7 @@
     <target name="compile">
         <mkdir dir="${build.output}"/>
         <javac destdir="${build.output}" srcdir="${build.src}"
-               includeantruntime="false" includes="**/*.java">
+               includeantruntime="false" includes="**/*.java" debug="${build.debug}">
             <classpath refid="build.classpath"/>
         </javac>
         <copy todir="${build.output}">
