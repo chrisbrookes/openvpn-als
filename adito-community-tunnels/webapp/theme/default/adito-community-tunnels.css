@@ -1,7 +1,9 @@
 div#page_tunnel {
-	margin: 0 auto;
 	text-align: left;
-	width: 38em;
+	width: 80%;
+	min-width: 38em;
+	margin-left: 1em;
+	margin-right: auto;
 }
 
 div#page_tunnel .dialog_form_table td.label {

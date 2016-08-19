@@ -110,9 +110,11 @@ div#page_profiles #pager_personalProfiles .resource_table thead tr, div#page_pro
 
 /* Property profile */
 div#page_propertyProfile {
-	margin: 0 auto;
 	text-align: left;
-	width: 38em;
+	width: 80%;
+	min-width: 38em;
+	margin-left: 1em;
+	margin-right: auto;
 }
 
 div#page_propertyProfile .dialog_form_table td.label {
@@ -525,8 +527,9 @@ div#page_accounts td.action {
 
 /* Account Content */
 div#page_account {
-	width: 38em;
-	margin-left: auto;
+	width: 80%;
+	min-width: 38em;
+	margin-left: 1em;
 	margin-right: auto;
 }
 
@@ -582,8 +585,9 @@ div#page_ip_restriction .dialog_form_table {
 }
 
 div#page_ip_restriction {
-	width: 38em;
-	margin-left: auto;
+	width: 80%;
+	min-width: 38em;
+	margin-left: 1em;
 	margin-right: auto;
 }
 
@@ -612,9 +616,11 @@ div#page_policies td.actions {
 }
 
 div#page_policy {
-	margin: 0 auto;
 	text-align: left;
-	width: 38em;
+	width: 80%;
+	min-width: 38em;
+	margin-left: 1em;
+	margin-right: auto;
 }
 
 div#page_policy .dialog_form_table .formTextArea textarea {
@@ -746,9 +752,9 @@ div#page_roles td.actions {
 /* Role */
 
 div#page_role {
-	width: 36em;
-	max-width: 36em;
-	margin-left: auto;
+	width: 80%;
+	min-width: 38em;
+	margin-left: 1em;
 	margin-right: auto;
 }
 
@@ -860,9 +866,10 @@ div#page_messageQueue .resource_table tbody td.subject {
 
 /* Send Message */
 div#page_sendMessage {
-	margin: 0 auto;
-	text-align: left;
-	width: 39em;
+	width: 80%;
+	min-width: 38em;
+	margin-left: 1em;
+	margin-right: auto;
 }
 
 div#page_sendMessage .tabContent {
@@ -1071,9 +1078,11 @@ div#page_authenticationSchemes td.actions {
 
 /* Authentication scheme */
 div#page_authenticationScheme {
-	margin: 0 auto;
 	text-align: left;
-	width: 42em;
+	width: 80%;
+	min-width: 38em;
+	margin-left: 1em;
+	margin-right: auto;
 }
 
 div#page_authenticationScheme .dialog_form_table td.label {

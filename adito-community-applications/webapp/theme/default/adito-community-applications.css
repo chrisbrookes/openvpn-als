@@ -1,8 +1,9 @@
 /* Edit Application shortcut */
 
 div#page_applicationShortcut {
-	width: 41em;
-	margin-left: auto;
+	width: 80%;
+	min-width: 38em;
+	margin-left: 1em;
 	margin-right: auto;
 }
 
@@ -101,4 +102,9 @@ div#wizardPage_applicationShortcutPolicySelection select {
 
 div#wizardPage_applicationShortcutDetails tr.formText td.value input{
 	width: 100%;
+}
+
+div#wizardPage_applicationShortcutAdditionalDetails tr.formText td.value input,
+div#page_applicationShortcut tr.formText td.value input {
+	width: 90%;
 }
